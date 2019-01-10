@@ -1,3 +1,5 @@
+[![Release](https://jitpack.io/v/snarks/OpenRange.svg)](https://jitpack.io/#snarks/OpenRange)
+
 # OpenRange
 Open ended version of Kotlin's `ClosedRange` class
 
@@ -46,3 +48,17 @@ assertTrue(1024 in range)
 
 assertEquals(">512", "$range")
 ```
+
+## Adding OpenRange to your Project
+You can add this project as a dependency via [JitPack](https://jitpack.io/).
+
+```gradle
+repositories {
+    ...
+    maven { url "https://jitpack.io" }
+}
+dependencies {
+     compile 'io.github.snarks:OpenRange:1.0.1'
+}
+```
+(_`com.github.snarks` will also work_)
