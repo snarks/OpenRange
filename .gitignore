@@ -43,3 +43,6 @@ hs_err_pid*
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Include gradle-wrapper.jar for JitPack
+!gradle/wrapper/gradle-wrapper.jar
