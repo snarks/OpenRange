@@ -1,5 +1,6 @@
 plugins {
 	kotlin("jvm") version "1.3.11"
+	id("maven")
 }
 
 group = "io.github.snarks"
