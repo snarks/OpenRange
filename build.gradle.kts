@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "io.github.snarks"
-version = "0.1-DEV"
+version = "1.0.0"
 
 repositories {
 	mavenCentral()
